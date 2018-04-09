@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.db.awmd.challenge.EmailNotificationServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.db.awmd.challenge.EmailNotificationServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.db.awmd.challenge.html">com.db.awmd.challenge</a> &gt; EmailNotificationServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.826s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">bothNotificationCalledOnSuccessfulTransfer</td>
+<td>0.826s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2018-04-09 17:39:07.362  INFO 8488 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.db.awmd.challenge.EmailNotificationServiceTest], using SpringBootContextLoader
+2018-04-09 17:39:07.364  INFO 8488 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.db.awmd.challenge.EmailNotificationServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-04-09 17:39:07.364  INFO 8488 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.db.awmd.challenge.EmailNotificationServiceTest]: EmailNotificationServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-04-09 17:39:07.382  INFO 8488 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.db.awmd.challenge.DevChallengeApplication for test class com.db.awmd.challenge.EmailNotificationServiceTest
+2018-04-09 17:39:07.392  INFO 8488 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-04-09 17:39:07.404  INFO 8488 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2018-04-09 17:39:07.407  INFO 8488 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2018-04-09 17:39:07.410  INFO 8488 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a067625, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78b3fe3c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e6627bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@36375c37, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f59b38a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@87cf243, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@67c8773e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6b924914, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4975720f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@26f46f88]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.4.RELEASE)
+
+2018-04-09 17:39:07.664  INFO 8488 --- [    Test worker] c.d.a.c.EmailNotificationServiceTest     : Starting EmailNotificationServiceTest on LAPTOP-VDETUL9U with PID 8488 (started by Dipannita in G:\HclTest\Money-Transfer)
+2018-04-09 17:39:07.674  INFO 8488 --- [    Test worker] c.d.a.c.EmailNotificationServiceTest     : No active profile set, falling back to default profiles: default
+2018-04-09 17:39:07.681  INFO 8488 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6a621187: startup date [Mon Apr 09 17:39:07 IST 2018]; root of context hierarchy
+2018-04-09 17:39:11.958  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/accounts],methods=[POST],consumes=[application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; com.db.awmd.challenge.web.AccountsController.createAccount(com.db.awmd.challenge.domain.Account)
+2018-04-09 17:39:11.960  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/accounts/{accountId}],methods=[GET]}&quot; onto public com.db.awmd.challenge.domain.Account com.db.awmd.challenge.web.AccountsController.getAccount(java.lang.String)
+2018-04-09 17:39:11.962  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/accounts/transaction],methods=[POST],consumes=[application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; com.db.awmd.challenge.web.AccountsController.transferMoney(com.db.awmd.challenge.domain.UserTransaction)
+2018-04-09 17:39:11.970  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-04-09 17:39:11.972  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-04-09 17:39:11.974  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-04-09 17:39:11.990  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-09 17:39:11.991  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-09 17:39:12.389  INFO 8488 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-04-09 17:39:13.067  INFO 8488 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6a621187: startup date [Mon Apr 09 17:39:07 IST 2018]; root of context hierarchy
+2018-04-09 17:39:13.218  INFO 8488 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-09 17:39:13.225  INFO 8488 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-09 17:39:13.372  INFO 8488 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-09 17:39:13.888  INFO 8488 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-04-09 17:39:14.180  INFO 8488 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2caec738, org.springframework.security.web.context.SecurityContextPersistenceFilter@5919c5cc, org.springframework.security.web.header.HeaderWriterFilter@41d7cb3b, org.springframework.security.web.authentication.logout.LogoutFilter@197be436, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58340938, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@edb7784, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2845fc7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f0cb500, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fd27c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fd28cd, org.springframework.security.web.session.SessionManagementFilter@4769282a, org.springframework.security.web.access.ExceptionTranslationFilter@15b670a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65799070]
+2018-04-09 17:39:14.196  INFO 8488 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/actuator/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6fb587, org.springframework.security.web.context.SecurityContextPersistenceFilter@2488b327, org.springframework.security.web.header.HeaderWriterFilter@157eb875, org.springframework.security.web.authentication.logout.LogoutFilter@136b0d9f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25bfddb4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51e752dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31bae584, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ebca581, org.springframework.security.web.session.SessionManagementFilter@52de15b1, org.springframework.security.web.access.ExceptionTranslationFilter@4366cf84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7eb50668]
+2018-04-09 17:39:14.196  INFO 8488 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6587d57c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ce97051, org.springframework.security.web.header.HeaderWriterFilter@2b73cf5c, org.springframework.security.web.authentication.logout.LogoutFilter@20e2cb0a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17be5cbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bdd87d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ee1badb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51948d8f, org.springframework.security.web.session.SessionManagementFilter@48c0c1ac, org.springframework.security.web.access.ExceptionTranslationFilter@61c8cb74, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@108c2b6b]
+2018-04-09 17:39:15.212  WARN 8488 --- [    Test worker] .s.b.a.a.EndpointWebMvcAutoConfiguration : Could not start embedded management container on different port (management endpoints are still available through JMX)
+2018-04-09 17:39:15.215  INFO 8488 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-04-09 17:39:15.222  INFO 8488 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-04-09 17:39:15.226  INFO 8488 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-04-09 17:39:15.248  INFO 8488 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-04-09 17:39:15.499  INFO 8488 --- [    Test worker] c.d.a.c.EmailNotificationServiceTest     : Started EmailNotificationServiceTest in 8.062 seconds (JVM running for 49.576)
+2018-04-09 17:39:15.530  INFO 8488 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-04-09 17:39:15.531  INFO 8488 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-04-09 17:39:15.565  INFO 8488 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 29 ms
+2018-04-09 17:39:16.157  INFO 8488 --- [    Test worker] c.d.a.challenge.web.AccountsController   : Creating account Account(accountId=111, balance=1000)
+2018-04-09 17:39:16.168  INFO 8488 --- [    Test worker] c.d.a.challenge.web.AccountsController   : Creating account Account(accountId=123, balance=2000)
+2018-04-09 17:39:16.228  INFO 8488 --- [    Test worker] c.d.a.challenge.web.AccountsController   : Transfering money UserTransaction(accountFromId=111, accountToId=123, amount=500)
+2018-04-09 17:39:16.294  INFO 8488 --- [    Test worker] c.d.a.challenge.web.AccountsController   : Retrieving account for id 111
+2018-04-09 17:39:16.329  INFO 8488 --- [    Test worker] c.d.a.challenge.web.AccountsController   : Retrieving account for id 123
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.6</a> at 9 Apr, 2018 5:39:17 PM</p>
+</div>
+</div>
+</body>
+</html>
